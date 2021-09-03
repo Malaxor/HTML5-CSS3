@@ -1,15 +1,30 @@
+* {
+   margin: 0;
+   padding: 0;
+}
 body {
    font-family: sans-serif;
    line-height: 1.4;
 }
 .product {
+   width: 825px;
+   margin: 50px auto;
    border: 5px solid black;
+}
+.details-list {
+   list-style: square;
+   margin-left: 20px;
+   margin-bottom: 10px;
+}
+.details-list li {
+   margin-bottom: 5px;
 }
 .product-title {
    text-transform: uppercase;
    background-color: #f7f7f7;
    text-align: center;
    font-size: 22px;
+   padding: 15px;
 }
 .price {
    font-size: 24px;
@@ -20,9 +35,18 @@ body {
    text-transform: uppercase;
    color: #777;
    font-weight: bold;
+   margin-bottom: 15px;
+}
+.tagline { 
+   margin-bottom: 10px;
+}
+.more-info {
+   margin-bottom: 20px;
 }
 .more-info:link,
 .more-info:visited {
+   display: inline-block;
+   margin-bottom: 15px;
    color: black;
 }
 .more-info:hover,
@@ -32,16 +56,17 @@ body {
 .details-title {
    text-transform: uppercase;
    font-size: 16px;
-}
-.details-list {
-   list-style: square;
+   margin-bottom: 15px;
 }
 .add-cart {
+   width: 100%;
+   padding: 20px;
    font-size: 20px;
    text-transform: uppercase;
    color: #fff;
    background-color: black;
    border: none;
+   border-top: 5px solid black;
    cursor: pointer;
 }
 .add-cart:hover {

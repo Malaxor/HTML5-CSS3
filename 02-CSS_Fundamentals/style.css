@@ -6,6 +6,10 @@ body {
    color: #444;
    font-family: sans-serif;
 }
+.container {
+   width: 700px;
+   margin: 0 auto;
+}
 .main-header {
    background-color: #f7f7f7;
    padding: 20px 40px;

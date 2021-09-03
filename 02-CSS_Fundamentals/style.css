@@ -5,9 +5,10 @@
 body {
    color: #444;
    font-family: sans-serif;
+   position: relative;
 }
 .container {
-   width: 700px;
+   max-width: 1000px;
    margin: 0 auto;
 }
 .main-header {
@@ -108,4 +109,12 @@ a:active {
    width: 100%;
    /* auto sets the height to the height specified in HTML markup*/
    height: auto;
+}
+button {
+   font-size: 20px;
+   padding: 20px;
+   cursor: pointer;
+   position: absolute;
+   bottom: 50px;
+   right: 50px;
 }

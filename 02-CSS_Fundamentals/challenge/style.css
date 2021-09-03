@@ -10,6 +10,46 @@ body {
    width: 825px;
    margin: 50px auto;
    border: 5px solid black;
+   position: relative;
+}
+.sale {
+   font-size: 12px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #fff;
+   background-color: #ec2f2f;
+   padding: 7px 15px;
+   position: absolute;
+   left: -35px;
+   top: -17px;
+}
+.colors {
+   margin-bottom: 20px;
+}
+.color {
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   margin-right: 10px;
+}
+.color:first-child {
+   background-color: black;
+}
+.color:nth-child(2) {
+   background-color: blue;
+}
+.color:nth-child(3) {
+   background-color: red;
+}
+.color:nth-child(4) {
+   background-color: yellow;
+}
+.color:nth-child(5) {
+   background-color: green;
+}
+.color:last-child {
+   background-color: brown;
+   margin-right: 0;
 }
 .details-list {
    list-style: square;
@@ -40,13 +80,10 @@ body {
 .tagline { 
    margin-bottom: 10px;
 }
-.more-info {
-   margin-bottom: 20px;
-}
 .more-info:link,
 .more-info:visited {
    display: inline-block;
-   margin-bottom: 15px;
+   margin-bottom: 20px;
    color: black;
 }
 .more-info:hover,

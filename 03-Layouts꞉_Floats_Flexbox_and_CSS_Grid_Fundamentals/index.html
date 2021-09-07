@@ -12,23 +12,25 @@
             <nav>
                <a target="_blank" href="blog.html">Blog</a>
                <a href="#">Challenges</a>
-               <a href="#">Flexbox</a>
-               <a href="#">Grid</a>
+               <a href="flexbox.html">Flexbox</a>
+               <a href="css-grid.html">Grid</a>
             </nav>
          </header>
          <article>
             <header class="post-header">
                <h2>The Basic Language of the Web: HTML</h2>
-               <img
-                  src="img/laura-jones.jpg"
-                  alt="headshot of laura jones"
-                  width="50"
-                  height="50"
-                  class="author-img"
-               />
-               <p id="author" class="author">
-                  Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-               </p>
+               <div class="author-box">
+                  <img
+                     src="img/laura-jones.jpg"
+                     alt="headshot of laura jones"
+                     width="50"
+                     height="50"
+                     class="author-img"
+                  />
+                  <p id="author" class="author">
+                     Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+                  </p>
+               </div>
                <img
                   src="img/post-img.jpg"
                   alt="HTML code on screen"
@@ -61,7 +63,7 @@
                paragraphs, links, headings, images, video, etc. Web browsers
                understand HTML and render HTML code as websites.
             </p>
-            <p>Most HTML element consists of 3 pieces:</p>
+            <p>Most HTML elements consist of 3 pieces:</p>
             <ol>
                <li>Opening tag</li>
                <li>Content</li>
@@ -97,35 +99,41 @@
          <aside>
             <h4>Related Articles</h4>
             <ul class="related">
-               <li>
+               <li class="related-post">
                   <img
                      src="img/related-1.jpg"
                      alt="person"
                      height="75"
                      width="75"
                   />
-                  <a href="#">How to Learn Web Development</a>
-                  <p class="related-author">By Jonas Schmedtmann</p>
+                  <div>
+                     <a class="related-link" href="#">How to Learn Web Development</a>
+                     <p class="related-author">By Jonas Schmedtmann</p>
+                  </div>
                </li>
-               <li>
+               <li class="related-post">
                   <img
                      src="img/related-2.jpg"
                      alt="person"
                      height="75"
                      width="75"
                   />
-                  <a href="#">The Unknown Powers of CSS</a>
-                  <p class="related-author">By Jim Dillon</p>
+                  <div>
+                     <a class="related-link" href="#">The Unknown Powers of CSS</a>
+                     <p class="related-author">By Jim Dillon</p>
+                  </div>
                </li>
-               <li>
+               <li class="related-post">
                   <img
                      src="img/related-3.jpg"
                      alt="person"
                      height="75"
                      width="75"
                   />
-                  <a href="#">Why JavaScript is Awesome</a>
-                  <p class="related-author">By Matilda</p>
+                  <div>
+                     <a class="related-link" href="#">Why JavaScript is Awesome</a>
+                     <p class="related-author">By Matilda</p>
+                  </div>
                </li>
             </ul>
          </aside>

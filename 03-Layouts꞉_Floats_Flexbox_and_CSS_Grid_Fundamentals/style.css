@@ -79,6 +79,7 @@ h4 {
    font-size: 20px;
    text-align: center;
    text-transform: uppercase;
+   margin-bottom: 30px;
 }
 p {
    font-size: 22px;
@@ -163,7 +164,7 @@ h1 {
 nav {
    float: right;
 }
-/* after appends a child that is displayed inline */
+/* after appends an inline pseudo-element */
 .clearfix::after {
    clear: both;
    content: "";

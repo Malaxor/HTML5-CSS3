@@ -18,20 +18,20 @@ nav {
 .main-header {
    background-color: #f7f7f7;
    padding: 20px 40px;
-   margin-bottom: 60px;
+   /* margin-bottom: 60px; */
 }
 .post-header {
    margin-bottom: 40px;
 }
-article {
+/* article {
    flex: 1;
-}
+} */
 aside {
    background-color: #f7f7f7;
    border-top: 5px solid #1098ad;
    border-bottom: 5px solid #1098ad;
    padding: 50px 40px;
-   flex: 0 0 300px;
+   /* flex: 0 0 300px; */
 }
 .article-list {
    margin-left: 50px;
@@ -86,6 +86,9 @@ p {
    line-height: 1.5;
    margin-bottom: 15px;
 }
+article p:last-child {
+   margin-bottom: 0;
+}
 li {
    font-size: 20px;
    margin-bottom: 10px;
@@ -138,6 +141,21 @@ button {
    bottom: 50px;
    right: 50px;
 }
+
+/* Grid */
+.container {
+   display: grid;
+   grid-template-columns: 1fr 300px;
+   gap: 60px 75px;
+   align-items: start;
+}
+.main-header {
+   grid-column: 1 / -1;
+}
+footer {
+   grid-column: 1 / -1;
+}
+
 /* Flexbox */
 .main-header {
    display: flex;
@@ -165,12 +183,12 @@ nav {
    font-size: 14px;
    font-style: italic;
 }
-.row {
+/* .row {
    display: flex;
    align-items: flex-start;
    gap: 75px;
    margin-bottom: 30px;
-}
+} */
 /* Floats */
 /* .author-img {
    float: left;

@@ -106,11 +106,28 @@ body {
    color: #000;
    background-color: #fff;
 }
+.mgb-20 {
+   margin-bottom: 20px;
+}
+/* Grid */
+.product {
+   display: grid;
+   grid-template-columns: auto repeat(2, 1fr);
+   column-gap: 40px;
+}
+.product-title {
+   grid-column: 1 / -1;
+}
+button {
+   grid-column: 1 / -1;
+}
+
+
 /* Flexbox */
-.container {
+/* .container {
    display: flex;
    gap: 40px;
-}
+} */
 .price-shipping {
    display: flex;
    justify-content: space-between;
@@ -119,11 +136,9 @@ body {
 .product-info,
 .product-details {
    margin-top: 20px;
-   flex: 1;
+   /* flex: 1; */
 }
-.mgb-20 {
-   margin-bottom: 20px;
-}
+
 /* Float */
 /* img {
    float: left;

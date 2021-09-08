@@ -24,11 +24,13 @@ body {
    left: -35px;
    top: -17px;
 }
+.product-colors {
+   display: flex;
+   gap: 10px;
+}
 .color {
-   display: inline-block;
    width: 30px;
    height: 30px;
-   margin-right: 5px;
 }
 .color:nth-child(1) {
    background-color: black;
@@ -73,7 +75,6 @@ body {
    text-transform: uppercase;
    color: #777;
    font-weight: bold;
-   margin-bottom: 15px;
 }
 .tagline { 
    margin-bottom: 10px;
@@ -102,14 +103,32 @@ body {
    color: #fff;
    background-color: black;
    border: none;
-   border-top: 5px solid black;
+   border-top: 4px solid black;
    cursor: pointer;
 }
 .add-cart:hover {
    color: #000;
    background-color: #fff;
 }
-img {
+/* Flexbox */
+.container {
+   display: flex;
+   gap: 40px;
+}
+.price-shipping {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.product-info,
+.product-details {
+   margin-top: 20px;
+   flex: 1;
+}
+
+/* Float */
+/* img {
    float: left;
    margin-right: 40px;
 }
@@ -129,4 +148,4 @@ img {
 }
 .shipping {
    float: right;
-}
+} */

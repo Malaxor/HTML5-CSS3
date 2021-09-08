@@ -34,8 +34,7 @@ aside {
    padding: 50px 40px;
    flex: 0 0 300px;
 }
-ul, 
-ol {
+.article-list {
    margin-left: 50px;
    margin-bottom: 20px;
 }
@@ -133,6 +132,8 @@ a:active {
 }
 .related {
    list-style: none;
+   margin-left: 0;
+   margin-bottom: 0;
 }
 .post-img {
    width: 100%;
@@ -146,7 +147,34 @@ button {
    bottom: 50px;
    right: 50px;
 }
-
+/* Flexbox */
+.main-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.author-box {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+}
+.related-post {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   margin-bottom: 30px;
+}
+.related-author {
+   margin-bottom: 0;
+   font-size: 14px;
+   font-style: italic;
+}
+.row {
+   display: flex;
+   align-items: flex-start;
+   gap: 75px;
+   margin-bottom: 30px;
+}
 /* Floats */
 /* .author-img {
    float: left;
@@ -180,32 +208,3 @@ aside {
 footer {
    clear: both;
 } */
-
-/* Flexbox */
-.main-header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-.author-box {
-   display: flex;
-   align-items: center;
-   margin-bottom: 15px;
-}
-.related-post {
-   display: flex;
-   align-items: center;
-   gap: 20px;
-   margin-bottom: 30px;
-}
-.related-author {
-   margin-bottom: 0;
-   font-size: 14px;
-   font-style: italic;
-}
-.row {
-   display: flex;
-   align-items: flex-start;
-   gap: 75px;
-   margin-bottom: 30px;
-}

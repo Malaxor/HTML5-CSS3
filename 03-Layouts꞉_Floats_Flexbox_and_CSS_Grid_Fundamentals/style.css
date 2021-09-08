@@ -10,7 +10,6 @@ body {
 }
 nav {
    font-size: 18px;
-   text-align: center;
 }
 .container {
    max-width: 1200px;
@@ -94,11 +93,6 @@ li {
 li:last-child {
    margin-bottom: 0;
 }
-nav {
-   display: flex;
-   justify-content: space-between;
-   gap: 30px;
-}
 a:link {
    color: #1098ad;
    text-decoration: none;
@@ -125,15 +119,12 @@ a:active {
    font-style: italic;
    font-size: 18px;
    margin-bottom: 0;
-   margin-left: 15px;
 }
 #copyright {
    font-size: 16px;
 }
 .related {
    list-style: none;
-   margin-left: 0;
-   margin-bottom: 0;
 }
 .post-img {
    width: 100%;
@@ -153,10 +144,15 @@ button {
    align-items: center;
    justify-content: space-between;
 }
+nav {
+   display: flex;
+   gap: 30px;
+}
 .author-box {
    display: flex;
    align-items: center;
    margin-bottom: 15px;
+   gap: 15px;
 }
 .related-post {
    display: flex;

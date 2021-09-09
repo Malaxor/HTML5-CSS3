@@ -15,8 +15,6 @@
 			.el--3 {
 				background-color: green;
 				height: 150px;
-				align-self: center;
-				justify-self: center;
 			}
 			.el--4 {
 				background-color: goldenrod;
@@ -42,17 +40,19 @@
 				margin: 40px;
 				width: 700px;
 				height: 600px;
+            /* display: none; */
 				/* CSS GRID */
-				display: grid;
-				grid-template-columns: 125px 200px 125px;
-				grid-template-rows: 250px 100px;
-				gap: 50px;
+            display: grid;
+            grid-template-columns: 125px 200px 125px;
+            grid-template-rows: 250px 100px;
+            gap: 50px;
 				/* aligning tracks inside container: distribute empty space */
-				justify-content: center;
-				align-content: end;
+            justify-content: center;
+            align-content: center;
 				/* aligning items inside cells: moving items inside cells */
-				align-items: center;
-				justify-items: center;
+            align-items: center;
+            justify-items: center;
+
 			}
 
 			.container--1 {
@@ -61,16 +61,18 @@
 				background-color: #ddd;
 				font-size: 40px;
 				margin: 40px;
+            
 				/* CSS GRID */
-				display: grid;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr 1fr;
+            height: 500px;
+            gap: 10px 20px;
 				/* grid-template-columns: 1fr 1fr 1fr auto; */
-				grid-template-columns: repeat(4, 1fr);
-				grid-template-rows: 1fr 1fr;
+	
 
 				/* grid-template-rows: 300px 200px; */
-				column-gap: 30px;
-				row-gap: 40px;
-				display: none;
+            display: none;
 			}
 		</style>
   </head>

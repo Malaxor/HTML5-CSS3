@@ -1,4 +1,4 @@
-const accordion = document.getElementsByClassName('accordion')[0];
+const accordion = document.querySelectorAll('.accordion')[0];
 
 accordion.addEventListener('click', e => {
    if(e.target.classList.contains('icon')) {

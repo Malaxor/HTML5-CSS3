@@ -31,8 +31,7 @@ body {
    padding: 24px;
    display: grid;
    grid-template-columns: auto 1fr auto;
-   column-gap: 24px;
-   row-gap: 32px;
+   gap: 32px 24px;
 }
 .icon {
    width: 24px;

@@ -67,10 +67,10 @@ img {
    justify-content: center;
 }
 .btn--left {
-   /* In relation to PARENTE ELEMENT */
+   /* In relation to parent element */
    left: 0;
    top: 50%;
-   /* In relation to ELEMENT ITSELF */
+   /* In relation to element itself */
    transform: translate(-50%, -50%);
 }
 .btn--right {

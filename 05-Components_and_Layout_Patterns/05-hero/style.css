@@ -21,21 +21,40 @@ body {
    font-family: 'Rubik', sans-serif;
    color: #444;
 }
+header {
+   height: 100vh;
+   position: relative;
+   /* darkening the background image */
+   background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+      url(hero.jpg);
+   background-size: cover;
+   color: #fff;
+}
 .container {
    margin: 0 auto;
    width: 1200px;
 }
-header {
-   height: 100vh;
-}
 nav {
    font-size: 20px;
+   padding-top: 32px;
    font-weight: 700;
    display: flex;
    justify-content: space-between;
 }
+.header-container {
+   width: 1200px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+.header-container-inner {
+   width: 50%;
+}
 h1 {
    font-size: 52px;
+   line-height: 1.05;
    letter-spacing: -2px;
    margin-bottom: 32px;
 }

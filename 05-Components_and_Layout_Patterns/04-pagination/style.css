@@ -26,8 +26,8 @@ body {
    display: flex;
    align-items: center;
    gap: 12px;
-   margin-top: 200px;
-}
+   margin-top: 150px;
+} 
 .btn {
    width: 48px;
    height: 48px;
@@ -35,6 +35,9 @@ body {
    border-radius: 50%;
    background: none;
    cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .btn-icon {
    width: 24px;

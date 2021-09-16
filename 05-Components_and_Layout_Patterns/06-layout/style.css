@@ -4,7 +4,10 @@
    Nav: #343a40
    Menu: #7048e8
    Section: #e9ecef
+   Section Email: #adb5bd
    Aside: #e9ecef
+   Menu Buttons: #5f3dc4;
+   Menu Last Child Button: #d6336c
 */
 
 * {
@@ -24,7 +27,6 @@ body {
    grid-template-rows: 80px 1fr;
 }
 nav,
-menu,
 section,
 main,
 aside {
@@ -36,12 +38,41 @@ nav {
    grid-row: 1  / -1;
 }
 menu {
+   padding: 0 40px;
    background-color: #7048e8;
-   color: #fff;
    grid-column: 2 / -1;
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+menu button {
+   font-size: 16px;
+   font-weight: bold;
+   border: none;
+   background-color: #5f3dc4;
+   color: white;
+   cursor: pointer;
+   padding: 8px 12px;
+}
+menu button:last-child {
+   background-color: #d6336c;
+   margin-left: auto;
 }
 section {
    background-color: #e9ecef;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   overflow-y: scroll;
+}
+section .email {
+   background-color: #adb5bd;
+   height: 96px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-shrink: 0;
 }
 aside {
    background-color: #e9ecef;

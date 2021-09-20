@@ -56,7 +56,7 @@ h2 {
    margin-bottom: 30px;
    position: relative;
 }
-/* after appends an inline pseudo-element */
+/* after appends (last child) an inline pseudo-element */
 h2::after {
    content: "TOP";
    background-color: #ffe70e;

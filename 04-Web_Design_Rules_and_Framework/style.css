@@ -15,7 +15,6 @@ FONT SIZE SYSTEM (px)
 	box-sizing: border-box;
    text-decoration: none;
 }
-
 /* GENERAL STYLES */
 body {
   	font-family: 'Inter', sans-serif;
@@ -65,7 +64,6 @@ img {
    width: 100%;
    border-radius: 12px;
 }
-
 /* COMPONENT STYLES */
 header {
   	display: grid;
@@ -87,7 +85,6 @@ h1 {
    font-size: 18px;
    line-height: 1.7;
 }
-
 /* FEATURES */
 .features-icon {
    stroke: #087f5b;

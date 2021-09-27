@@ -72,8 +72,14 @@ body {
    font-weight: 400;
    color: #555;
 }
+.text-center {
+   text-align: center;
+}
 .margin-right-sm {
    margin-right: 1.6rem !important;
+}
+.margin-bottom-md {
+   margin-bottom: 4.8rem !important;
 }
 /* GRID AND CONTAINER */
 /* ------------------ */
@@ -144,7 +150,7 @@ body {
    font-weight: 600;
    padding: 1.6rem 3.2rem;
    border-radius: 10px;
-   transition: background-color .3s;
+   transition: background-color 0.3s;
 }
 .btn--full:link,
 .btn--full:visited {
@@ -165,4 +171,17 @@ body {
    background-color: #fae5d3;
    /* trick for adding border inside the element */
    box-shadow: inset 0 0 0 3px #fff;
+}
+.link:link,
+.link:visited {
+   display: inline-block;
+   color: #e67e22;
+   border-bottom: 1px solid currentColor;
+   padding-bottom: 2px;
+   transition: all 0.3s;
+}
+.link:hover,
+.link:active {
+   color: #cf711f;
+   border-bottom: 1px solid transparent;
 }

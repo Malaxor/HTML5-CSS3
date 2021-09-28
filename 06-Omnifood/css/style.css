@@ -23,8 +23,8 @@ P: 1.5
 #e67e22
 
 - Tints: 
-#fae5d3
 #fdf2e9
+#fae5d3
 
 - Shades: 
 #cf711f
@@ -65,7 +65,7 @@ Medium: 11px
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #fae5d3;
+   background-color: #fdf2e9;
    height: 9.6rem;
    padding: 0 4.8rem;
 }
@@ -105,7 +105,7 @@ Medium: 11px
 
 /* HERO */
 .section-hero {
-   background-color: #fae5d3;
+   background-color: #fdf2e9;
    padding: 4.8rem 4.8rem 9.6rem;
 }
 .hero {
@@ -200,7 +200,7 @@ Medium: 11px
 .meal {
    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
    border-radius: 1.1rem;
-   /* otherwise the image overflows and hides the border*/
+   /* otherwise the image overflows and hides the border */
    overflow: hidden;
    transition: transform 0.4s;
 }
@@ -276,6 +276,29 @@ Medium: 11px
 .all-recipes {
    text-align: center;
    font-size: 1.6rem;
+}
+/* TESTIMONIALS */
+.section-testimonials {
+   padding: 9.6rem 0;
+}
+.testimonials {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 4.8rem;
+}
+.testimonial-img {
+   width: 6.4rem;
+   border-radius: 50%;
+   margin-bottom: 1.2rem;
+}
+.testimonial-text {
+   font-size: 1.8rem;
+   line-height: 1.5;
+   margin-bottom: 1.6rem;
+}
+.testimonial-name {
+   font-size: 1.6rem;
+   color: #777;
 }
 
 /* *********************/

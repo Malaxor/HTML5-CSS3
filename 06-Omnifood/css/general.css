@@ -24,12 +24,18 @@ P: 1.5
 
 - Tints: 
 #fae5d3
+#fdf2e9
 
 - Shades: 
 #cf711f
 #45260a
 
-- Accents: 
+- Accents:
+
+- Meal Image Tags:
+vegetarian: #51cf66
+vegan: #94d82d
+paleo: #ffd43b
 
 - Greys: 
 #555 
@@ -41,12 +47,13 @@ P: 1.5
 04 BORDER RADIUS
 
 Default: 9px
+Medium: 11px
 --------------------------------------------------
 05 WHITE SPACE
 
 - Spacing (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
--------------------------------------------------- 
+--------------------------------------------------
 */
 
 * {
@@ -168,7 +175,7 @@ body {
 }
 .btn--outline:hover,
 .btn--outline:active {
-   background-color: #fae5d3;
+   background-color: #fdf2e9;
    /* trick for adding border inside the element */
    box-shadow: inset 0 0 0 3px #fff;
 }

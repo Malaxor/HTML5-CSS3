@@ -23,8 +23,8 @@ P: 1.5
 #e67e22
 
 - Tints: 
-#fae5d3
 #fdf2e9
+#fae5d3
 
 - Shades: 
 #cf711f
@@ -40,6 +40,7 @@ paleo: #ffd43b
 - Greys: 
 #555 
 #333
+#6f6f6f : lightest gray allowed on #fdf2e9
 
 --------------------------------------------------
 03 SHADOWS
@@ -191,4 +192,21 @@ body {
 .link:active {
    color: #cf711f;
    border-bottom: 1px solid transparent;
+}
+/* LIST */
+/* ---- */
+.list-icon {
+   font-size: 3rem;
+   color: #e67e22;
+}
+.list {
+   display: flex;
+   flex-direction: column;
+   gap: 1.6rem;
+}
+.list-item {
+   font-size: 1.8rem;
+   display: flex;
+   align-items: center;
+   gap: 1.6rem;
 }

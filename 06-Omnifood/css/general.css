@@ -89,6 +89,9 @@ body {
 .margin-bottom-md {
    margin-bottom: 4.8rem !important;
 }
+.margin-bottom-lg {
+   margin-bottom: 9.6rem !important;
+}
 /* GRID AND CONTAINER */
 /* ------------------ */
 .container {

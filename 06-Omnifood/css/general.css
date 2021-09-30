@@ -66,6 +66,10 @@ Medium: 11px
    margin: 0;
    box-sizing: border-box;
 }
+*:focus {
+   outline: none;
+   box-shadow: 0 0 0 0.8rem rgb(230, 126, 34, 0.5);
+}
 a {
    text-decoration: none;
 }
@@ -161,14 +165,19 @@ body {
 
 /* BUTTONS */
 /* ------- */
+.btn,
 .btn:link,
 .btn:visited {
    display: inline-block;
+   /* border and cursor affect the .btn class used on buttons */
+   /* anchor elements don't have a border and the cursor automatically transforms into a pointer */
+   border: none;
+   cursor: pointer;
    font-size: 2rem;
    font-weight: 600;
    padding: 1.6rem 3.2rem;
    border-radius: 10px;
-   transition: background-color 0.3s;
+   transition: background-color 0.3s;  
 }
 .btn--full:link,
 .btn--full:visited {

@@ -129,6 +129,9 @@ body {
 .grid--4-cols {
    grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols {
+   grid-template-columns: repeat(5, 1fr);
+}
 /* HEADINGS */
 /* -------- */
 .heading-primary,
@@ -177,7 +180,7 @@ body {
    font-weight: 600;
    padding: 1.6rem 3.2rem;
    border-radius: 10px;
-   transition: background-color 0.3s;  
+   transition: all 0.3s;  
 }
 .btn--full:link,
 .btn--full:visited {

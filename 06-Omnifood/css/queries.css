@@ -2,7 +2,7 @@
 /* instead, 1rem = 1em = 16px */
 
 /* 1344px (smaller desktops) */
-@media(max-width: 84em) {
+@media (max-width: 84em) {
    .heading-primary {
       font-size: 4.4rem;
    }
@@ -15,7 +15,7 @@
 }
 
 /* 1200px (landscape tablets) */
-@media(max-width: 75em) {
+@media (max-width: 75em) {
    html {
       font-size: 56.25%;
    }
@@ -40,5 +40,51 @@
    }
    .testimonials-container {
       padding: 9.6rem 3.2rem;
+   }
+}
+
+/* 954px (tablets) */
+@media (max-width: 60em) {
+   html {
+      font-size: 50%;
+   }
+   .section-hero {
+      padding: 4.8rem 8rem 9.6rem;
+   }
+   .hero {
+      grid-template-columns: 1fr;
+      row-gap: 6.4rem;
+   }
+   .hero-text-box,
+   .hero-image-box {
+      text-align: center;
+   }
+   .hero-img {
+      width: 60%;
+   }
+   .delivered-meals {
+      justify-content: center;
+      margin-top: 3.2rem;
+   }
+   .logos img {
+      height: 2.4rem;
+   }
+   .step-number {
+      font-size: 7.4rem;
+   }
+   .meal-content {
+      padding: 2.4rem 3.2rem 3.2rem;
+   }
+   .section-testimonials {
+      grid-template-columns: 1fr;
+   }
+   .gallery {
+      grid-template-columns: repeat(6, 1fr);
+   }
+   .cta {
+      grid-template-columns: 60fr 40fr;
+   }
+   .cta-form {
+      grid-template-columns: 1fr;
    }
 }

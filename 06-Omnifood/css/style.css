@@ -51,7 +51,7 @@ paleo: #ffd43b
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15)
 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06)
-0 0 0 0.8rem rgb(253, 242, 233, 0.5);
+0 0 0 0.8rem rgb(253, 242, 233, 0.5)
 
 --------------------------------------------------
 04 BORDER RADIUS
@@ -482,6 +482,7 @@ Round: 50%
    color: #fdf2e9;
    align-self: end;
    padding: 1.2rem;
+   margin-top: 1.2rem;
 }
 .btn--form:hover {
    background-color: white;

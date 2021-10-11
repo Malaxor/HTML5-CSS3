@@ -83,6 +83,7 @@ strong {
 }
 html {
    font-size: 62.5%;
+   /*  hide the mobile nav */
    overflow-x: hidden;
 }
 body {
@@ -90,6 +91,7 @@ body {
    line-height: 1;
    font-weight: 400;
    color: #555;
+   /* hide the mobile nav */
    overflow-x: hidden;
 }
 .text-center {
@@ -134,9 +136,6 @@ body {
 .grid--4-cols {
    grid-template-columns: repeat(4, 1fr);
 }
-.grid--5-cols {
-   grid-template-columns: repeat(5, 1fr);
-}
 
 /* HEADINGS */
 /* -------- */
@@ -177,7 +176,7 @@ body {
 .btn,
 .btn:link,
 .btn:visited {
-   /* display: inline-block; */
+   display: inline-block;
    /* border and cursor affect the .btn class used on buttons */
    /* anchor elements don't have a border and the cursor automatically transforms into a pointer */
    border: none;
@@ -221,6 +220,7 @@ body {
    color: #cf711f;
    border-bottom: 1px solid transparent;
 }
+
 /* LIST */
 /* ---- */
 .list-icon {

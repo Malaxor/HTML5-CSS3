@@ -89,7 +89,7 @@ Round: 50%
 /* NAV */
 .main-nav-list {
    display: flex;
-   /* align-items: center; */
+   align-items: center;
    gap: 4.8rem;
 }
 .main-nav-link:link,

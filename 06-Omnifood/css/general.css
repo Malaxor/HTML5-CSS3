@@ -83,6 +83,8 @@ strong {
 }
 html {
    font-size: 62.5%;
+   /* Doesn't work on Safari and Microsoft Edge */
+   /* scroll-behavior: smooth; */
 }
 body {
    font-family: "Rubik", sans-serif;

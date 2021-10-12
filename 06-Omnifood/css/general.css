@@ -83,8 +83,6 @@ strong {
 }
 html {
    font-size: 62.5%;
-   /*  hide the mobile nav */
-   overflow-x: hidden;
 }
 body {
    font-family: "Rubik", sans-serif;

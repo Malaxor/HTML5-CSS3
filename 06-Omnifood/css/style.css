@@ -80,6 +80,7 @@ Round: 50%
    background-color: #fdf2e9;
    height: 9.6rem;
    padding: 0 4.8rem;
+   /* in media queries, main nav is set to position absolute */
    position: relative;
 }
 .logo {

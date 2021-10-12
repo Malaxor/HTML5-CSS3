@@ -62,7 +62,7 @@ body {
    gap: 12px;
 }
 /* Open Accordion */
-.open {
+.item.open {
    border-top: 5px solid #087f5b;
 }
 .open .number, 

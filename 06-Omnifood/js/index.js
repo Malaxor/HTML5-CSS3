@@ -1,13 +1,13 @@
 const headerEl = document.querySelector('.header');
 const btnNavEl = document.querySelector('.btn-mobile-nav');
+const allLinks = document.getElementsByTagName('a');
+const sectionHero = document.querySelector('.section-hero');
 
 btnNavEl.addEventListener('click', () => {
    headerEl.classList.toggle('nav-open');
 });
 
 // smooth scroll animation
-const allLinks = document.getElementsByTagName('a');
-
 Array.from(allLinks).forEach(link => {
    link.addEventListener('click', e => {
       e.preventDefault();
@@ -30,3 +30,22 @@ Array.from(allLinks).forEach(link => {
       }
    });
 });
+// sticky nav
+const obs = new IntersectionObserver(entries => {
+   const entry = entries[0];
+
+   if(!entry.isIntersecting) {
+      document.body.classList.add('sticky');
+   }
+   if(entry.isIntersecting) {
+      document.body.classList.remove('sticky');
+   }
+}, {
+      // inside the viewport
+      root: null,
+      // event will fire when 0% of the hero section is in the viewport
+      threshold: 0,
+      rootMargin: '-80px'
+   }
+);
+obs.observe(sectionHero);

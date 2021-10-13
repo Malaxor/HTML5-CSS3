@@ -474,7 +474,7 @@ Round: 50%
 .cta-img-box {
    background-image: 
       linear-gradient(to right bottom, rgb(235, 151, 78, 0.3), rgb(230, 125, 34, 0.3)), 
-      url('../img/eating.jpg');
+      url('../img/eating.webp');
    background-size: cover;
    background-position: center;
 }
